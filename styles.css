@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero {
+    padding: 0 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 16px;
+}
+
+ul.head-list {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+/* COLORS 
+
+#1F2937 - DARK BACKGROUND COLOR (HERO AND FOOTER)
+#F9FAF8 - HERO MAIN TEXT (48PX extra-bold)
+#E5E7EB - HERO SECONDARY TEXT, HEADER LINK TEXT (18PX)
+#F9FAF8 - HEADER LOGO TEXT (24PX)
+
+#3882F6 - BUTTON COLOR, CALL TO ACTION BACKGROUND COLOR
+#1F2937 - INFORMATION HEADER TEXT (36PX extra-bold)
+#E5E7EB - QUOTE SECTION BACKGROUND COLOR
+#1F2937 - QUOTE TEXT (36PX light italic)
+
+*/
