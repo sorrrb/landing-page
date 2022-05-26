@@ -1,52 +1,62 @@
 body {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.hero, .footer {
-    background-color: #1F2937;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero {
-    padding: 0 300px;
-    display: flex;
-    flex-direction: column;
+  background-color: #1F2937;
+  padding: 0 200px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 24px;
-    color: #F9FAF8;
-    margin-top: 16px;
+.hero-content, .hero-right {
+  display: flex;
 }
 
-ul.head-list {
-    display: flex;
-    list-style: none;
-    font-size: 18px;
-    color: #E5E7EB;
-    padding: 0;
-    margin: 0;
-    gap: 16px;
+.hero-content {
+  margin: 96px 0;
 }
 
-/* COLORS 
+.hero-left {
+  padding-right: 224px;
+}
 
-#1F2937 - DARK BACKGROUND COLOR (HERO AND FOOTER)
-#F9FAF8 - HERO MAIN TEXT (48PX extra-bold)
-#E5E7EB - HERO SECONDARY TEXT, HEADER LINK TEXT (18PX)
-#F9FAF8 - HEADER LOGO TEXT (24PX)
+.hero-right {
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: #E5E7EB;
+  width: 600px;
+  flex-shrink: 0;
+}
 
-#3882F6 - BUTTON COLOR, CALL TO ACTION BACKGROUND COLOR
-#1F2937 - INFORMATION HEADER TEXT (36PX extra-bold)
-#E5E7EB - QUOTE SECTION BACKGROUND COLOR
-#1F2937 - QUOTE TEXT (36PX light italic)
+.hero-left h1, .hero-left p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+}
 
-*/
+.hero-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-left button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 32px;
+  font-weight: 900;
+  font-size: 16px;
+}
