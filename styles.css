@@ -9,8 +9,8 @@ body {
   align-items: center;
 }
 
-.section-hero, .section-info {
-  padding: 0 450px;
+.section-hero, .section-info, .section-quote {
+  padding: 0 100%;
 }
 
 /* HERO SECTION */
@@ -101,12 +101,12 @@ body {
   font-weight: 800;
   color: #1F2937;
   text-align: center;
-  margin-top: 64px;
+  margin-top: 48px;
 }
 
 .media-container {
   display: flex;
-  padding: 24px 0;
+  padding-bottom: 80px;
   align-items: center;
   gap: 48px;
 }
@@ -132,3 +132,39 @@ body {
 }
 
 /* QUOTE SECTION */
+
+.section-quote {
+  background-color: #E5E7EB;
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quote-content {
+  font-weight: 300;
+  font-size: 36px;
+  color: #1F2937;
+  margin: 0;
+  margin-top: 144px;
+  padding: 0;
+  font-style: italic;
+  width: 800px;
+}
+
+.quote-label {
+  align-self: flex-end;
+  margin-right: 32px;
+  margin-bottom: 96px;
+}
+
+.quote-cite {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #1F2937;
+}
+
+/* CALL-TO-ACTION SECTION */
