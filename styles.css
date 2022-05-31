@@ -9,7 +9,10 @@ body {
   align-items: center;
 }
 
-.section-hero, .section-info, .section-quote {
+.section-hero,
+.section-info,
+.section-quote,
+.section-cta {
   padding: 0 100%;
 }
 
@@ -44,17 +47,17 @@ body {
   color: #E5E7EB;
 }
 
-.content {
-  margin-bottom: 144px;
+.hero-content {
   display: flex;
   gap: 24px;
+  margin-bottom: 144px;
 }
 
 .module {
   flex: 1;
 }
 
-.label {
+.hero-label {
   font-size: 48px;
   font-weight: 800;
   color: #F9FAF8;
@@ -62,7 +65,7 @@ body {
   margin: 0;
 }
 
-.subtext {
+.hero-subtext {
   font-size: 18px;
   color: #E5E7EB;
   padding: 0;
@@ -140,7 +143,6 @@ body {
 .quote-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
 .quote-content {
@@ -156,11 +158,11 @@ body {
 
 .quote-label {
   align-self: flex-end;
-  margin-right: 32px;
-  margin-bottom: 96px;
 }
 
-.quote-cite {
+.quote-subtext {
+  margin-right: 32px;
+  margin-bottom: 96px;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -168,3 +170,31 @@ body {
 }
 
 /* CALL-TO-ACTION SECTION */
+
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 64px 0;
+  padding: 40px 112px;
+  background-color: #3882F6;
+  border-radius: 8px;
+}
+
+.action-heading, .action-label, .action-register {
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.action-register {
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  border-radius: 6px;
+  padding: 8px 32px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.action-heading {
+  font-size: 24px;
+}
