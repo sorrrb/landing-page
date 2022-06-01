@@ -215,3 +215,13 @@ a:visited {
 }
 
 /* FOOTER */
+
+.section-footer {
+  background-color: #1F2937;
+}
+
+.footer-text {
+  color: #F9FAF8;
+  text-align: center;
+  margin: 36px 0;
+}
