@@ -3,13 +3,14 @@ body {
   padding: 0;
   box-sizing: border-box;
   width: 100vw;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
 }
 
 .section-hero, .section-info, .section-quote, .section-call, .section-footer {
-  padding: 0 400px;
+  padding: 0 475px;
 }
 
 /* HERO */
@@ -46,7 +47,7 @@ body {
 .hero-content {
   display: flex;
   margin: 144px 0;
-  gap: 64px;
+  gap: 48px;
 }
 
 .hero-title, .hero-subtext {
@@ -107,24 +108,63 @@ body {
 
 .card-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 40px;
-  margin-bottom: 64px;
+  margin-bottom: 112px;
 }
 
 .info-card {
-  height: 150px;
-  width: 150px;
+  height: 175px;
+  width: 175px;
   border: 4px solid #3882F6;
   border-radius: 15px;
   margin-bottom: 8px;
 }
 
+.info-module {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .info-subtext {
-  max-width: 150px;
+  max-width: 175px;
   text-align: center;
 }
 
 /* QUOTE */
+.section-quote {
+  background-color: #E5E7EB;
+}
+
+.quote-text, .quote-author {
+  margin: 0;
+  padding: 0;
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 144px;
+  margin-bottom: 96px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0 84px;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1F2937;
+  align-self: flex-end;
+  margin-right: 112px;
+}
+
 /* CALL-TO-ACTION */
 /* FOOTER */
