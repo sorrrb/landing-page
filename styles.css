@@ -10,7 +10,7 @@ body {
 }
 
 .section-hero, .section-info, .section-quote, .section-call, .section-footer {
-  padding: 0 475px;
+  padding: 0 150px;
 }
 
 a {
