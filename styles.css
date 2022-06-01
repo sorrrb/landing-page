@@ -13,6 +13,14 @@ body {
   padding: 0 475px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: currentColor;
+}
+
 /* HERO */
 
 .section-hero {
@@ -38,7 +46,6 @@ body {
 }
 
 .hero-link a {
-  text-decoration: none;
   font-size: 18px;
   font-weight: 400;
   color: #E5E7EB;
@@ -70,7 +77,7 @@ body {
 .hero-register {
   border: none;
   background-color: #3882F6;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
   color: #E5E7EB;
@@ -106,7 +113,7 @@ body {
   margin: 48px 0;
 }
 
-.card-wrapper {
+.card-container {
   display: flex;
   justify-content: space-around;
   gap: 40px;
@@ -142,7 +149,7 @@ body {
   padding: 0;
 }
 
-.quote-wrapper {
+.quote-container {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -167,4 +174,44 @@ body {
 }
 
 /* CALL-TO-ACTION */
+
+.call-wrapper {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  margin: 96px 0;
+  padding: 48px 112px;
+  border-radius: 8px;
+}
+
+.call-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-register {
+  border: 2px solid #F9FAF8;
+  background-color: #3882F6;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #F9FAF8;
+  padding: 6px 32px;
+}
+
+.call-header, .call-subtext {
+  margin: 0;
+  padding: 0;
+}
+
+.call-header {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.call-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 /* FOOTER */
